@@ -5,3 +5,5 @@ print("Bye World")
 
 #ang obob mag paliwanag ng staging
 #ang obob mag paliwanag ng staging potek
+
+#ang obob mag paliwanag ng staging potek talaga
