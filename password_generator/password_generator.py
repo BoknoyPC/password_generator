@@ -6,7 +6,7 @@ def main():
     ask_password = int(input("Please enter how many characters do you want for password: "))
 
 
-def creating_password(r):
+#def creating_password(r):
 
 
 
