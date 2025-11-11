@@ -4,11 +4,22 @@ import string
 def main():
     ask_username = input("Please enter your username: ")
 
-    ask_password = int(input("Please enter how many characters do you want for password: "))
+    while True:
+        try:
+            ask_password = int(input("Please enter how many characters do you want for password: "))
+            
+            if ask_password < 8:
+                print("Must be at least 8 characters long")
+            else:           
+                break   
+                
+        except ValueError:
+            print("Invalid input, Please enter a number")
+        
 
     password = creating_password(ask_password)
 
-    print(f"Hello your username is : {ask_username}, your generated password is : {password}")
+    print(f"Hello : {ask_username}, your generated password is : {password}")
 
 
 def creating_password(pw):
